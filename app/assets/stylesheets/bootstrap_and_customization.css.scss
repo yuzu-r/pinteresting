@@ -6,4 +6,16 @@ $navbar-default-bg: #ecf0f1;
 $navbar-default-link-color: #e67e22;
 $jumbotron-bg: #ecf0f1;
 $text-color: #e67e22;
+
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+$font-family-sans-serif: 'Slabo 27px', serif;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
