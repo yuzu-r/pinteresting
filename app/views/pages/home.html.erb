@@ -3,7 +3,7 @@
 
 	<% if user_signed_in? %>
 		# do
-		<%= @pins.show %>
+		<%= @pins %>
 	<%else %>
 		<p>	
 			<%= link_to "Log In!", new_user_session_path, class:"btn btn-default" %>	
